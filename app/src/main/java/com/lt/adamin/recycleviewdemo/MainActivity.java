@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
         adapter.setmOnItemClickLitener(new DemoAdapter.OnItemClickListener() {
             @Override
             public void OnItemClick(View view, int position) {
-                Toast.makeText(MainActivity.this,"点击"+String.valueOf(position),Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"点击第"+String.valueOf(position)+"个",Toast.LENGTH_LONG).show();
             }
         });
         recyclerView.setAdapter(adapter);
