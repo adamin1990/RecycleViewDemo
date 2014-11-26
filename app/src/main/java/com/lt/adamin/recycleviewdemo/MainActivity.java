@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
         linearLayoutManager =new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
          gridLayoutManager=new GridLayoutManager(this,3);
-        gridLayoutManager.setOrientation(GridLayoutManager.HORIZONTAL);
+        gridLayoutManager.setOrientation(GridLayoutManager.VERTICAL);
         staggeredGridLayoutManager=new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(staggeredGridLayoutManager);
 
